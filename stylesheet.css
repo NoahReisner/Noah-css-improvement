@@ -1,0 +1,16 @@
+body {
+    background-color: blue;
+    
+}
+
+.circle { shape-outside: circle();
+    shape-image-threshold: 1;
+    float: left;
+    height: 10;
+    width: 10;
+    
+    
+}
+p {font-family: cursive;
+font-size: 20px;
+align-content: center;}
