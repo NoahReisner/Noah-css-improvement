@@ -1,23 +1,26 @@
 body {
     background-color: blue;
-    
 }
 
-.circle { shape-outside: circle();
+.circle {
+    shape-outside: circle();
     shape-image-threshold: 1;
     float: left;
     height: 10;
     width: 10;
-    
-    
 }
-.parallax {background-image: url(images/023a648521ada4080a4be7b0f558378c_cartoon-circle-clipart-free-clipart-circle_600-600.png);
-min-height: 500px;
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+
+.parallax {
+    background-image: url(images/023a648521ada4080a4be7b0f558378c_cartoon-circle-clipart-free-clipart-circle_600-600.png);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-p {font-family: cursive;
-font-size: 20px;
-align-content: center;}
+
+p {
+    font-family: cursive;
+    font-size: 20px;
+    align-content: center;
+}
